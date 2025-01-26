@@ -1,63 +1,16 @@
+<?php 
 /*
 Template name: ABOUTページ
 */
+?>
 
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>三宅萌のPortfolio</title>
-
-    <!-- FONT -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-
-</head>
-
-<body>
-
-
-    <!-- ヘッダー -->
-    <header>
-
-        <!-- モバイル -->
-        <button class="sp-header-navbtn sp-only" type="btn">
-            <span></span>
-        </button>
-
-        <nav class="sp-header-nav sp-only">
-            <ul class="gnav-list">
-                <li class="gnav-item"><a href="index.html">Top</a></li>
-                <li class="gnav-item"><a href="#works">Works</a></li>
-                <li class="gnav-item"><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-
-
-        <!-- PC -->
-        <nav class="pc-header-nav pc-only">
-            <ul class="gnav-list">
-                <li class="gnav-item"><a href="index.html">Top</a></li>
-                <li class="gnav-item"><a href="#works">Works</a></li>
-                <li class="gnav-item"><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-
-
-    </header>
+<?php get_header(); ?>
 
     <section class="about" id="about">
         <div class="moe-img">
             <picture>
-                <source srcset="assets/img/about/pc_moePenguin.png" media="(min-width: 768px)">
-                <img src="assets/img/about/sp_moePenguin.png" alt="三宅萌の代わりのペンギン">
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/about/pc_moePenguin.png" media="(min-width: 768px)">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about/sp_moePenguin.png" alt="三宅萌の代わりのペンギン">
             </picture>
         </div>
         <div class="moe-introduction">
@@ -94,26 +47,7 @@ Template name: ABOUTページ
 
     <!-- 上へもどる -->
     <p class="pagetop">
-        <a href="#"><img src="assets/img/to_top2.png" alt="Topへ戻る"></a>
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/to_top2.png" alt="Topへ戻る"></a>
     </p>
 
-    <footer>
-        <ul class="gnav-list">
-            <li class="gnav-item"><a href="index.html">Top</a></li>
-            <li class="gnav-item"><a href="#works">Works</a></li>
-            <li class="gnav-item"><a href="about.html">About</a></li>
-        </ul>
-        <small>&copy; 2025 MOE MIYAKE</small>
-    </footer>
-
-</body>
-
-
-<!-- jQuery -->
-<script src="assets/js/jquery-3.7.1.js"></script>
-
-<!-- JS -->
-<script src="assets/js/script.js"></script>
-
-
-</html>
+<?php get_footer(); ?>

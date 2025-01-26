@@ -1,51 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>三宅萌のPortfolio</title>
-
-    <!-- FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-
-</head>
-
-<body>
-
-
-    <!-- ヘッダー -->
-    <header>
-
-        <!-- モバイル -->
-        <button class="sp-header-navbtn sp-only" type="btn">
-            <span></span>
-        </button>
-        
-        <nav class="sp-header-nav sp-only">
-            <ul class="gnav-list">
-                <li class="gnav-item"><a href="index.html">Top</a></li>
-                <li class="gnav-item"><a href="#works">Works</a></li>
-                <li class="gnav-item"><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-
-
-        <!-- PC -->
-        <nav class="pc-header-nav pc-only">
-            <ul class="gnav-list">
-                <li class="gnav-item"><a href="index.html">Top</a></li>
-                <li class="gnav-item"><a href="#works">Works</a></li>
-                <li class="gnav-item"><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-
-
-    </header>
+<?php get_header(); ?>
 
     <main>
 
@@ -56,18 +9,18 @@
             <div class="mv-img">
                 <div class="mv-img_bg">
                     <picture class="mv-img_bg_acacia">
-                        <source srcset="assets/img/pc_bg.jpg" media="(min-width: 768px)">
-                        <img src="assets/img/sp_bg.jpg" alt="Vessiのロゴ">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/pc_bg.jpg" media="(min-width: 768px)">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sp_bg.jpg" alt="Vessiのロゴ">
                     </picture>
                 </div>
                 <div class="mv-img_fg">
                     <picture class="mv-img_fg_opening">
-                        <source srcset="assets/img/pc_opening.png" media="(min-width: 768px)">
-                        <img src="assets/img/sp_opening.png" alt="冒頭挨拶：ものを作ることで、人の役に立ち、人の笑顔につながっていく。そんなお手伝いが出来ればと考えています。">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/pc_opening.png" media="(min-width: 768px)">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sp_opening.png" alt="冒頭挨拶：ものを作ることで、人の役に立ち、人の笑顔につながっていく。そんなお手伝いが出来ればと考えています。">
                     </picture>
                     <picture class="mv-img_fg_roof">
-                        <source srcset="assets/img/pc_roof.png" media="(min-width: 768px)">
-                        <img src="assets/img/sp_roof.png" alt="家の屋根の背景画像">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/pc_roof.png" media="(min-width: 768px)">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sp_roof.png" alt="家の屋根の背景画像">
                     </picture>
                 </div>
             </div>
@@ -80,55 +33,55 @@
             <ul class="works_container">
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_Vessi.jpg" alt="WEBサイト：Vessi">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Vessi.jpg" alt="WEBサイト：Vessi">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_ひみつの遊園地.jpg" alt="WEBサイト：ひみつの遊園地">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_ひみつの遊園地.jpg" alt="WEBサイト：ひみつの遊園地">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_Portoforio.jpg" alt="WEBサイト：ポートフォリオ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Portoforio.jpg" alt="WEBサイト：ポートフォリオ">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_banner_park.jpg" alt="バナー：四季の森公園の秋">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_banner_park.jpg" alt="バナー：四季の森公園の秋">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_banner_autumn leaves festival.jpg" alt="バナー：四季の森公園の秋祭り">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_banner_autumn leaves festival.jpg" alt="バナー：四季の森公園の秋祭り">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_banner_icecream.jpg" alt="バナー：アイスクリームショップの新作の告知">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_banner_icecream.jpg" alt="バナー：アイスクリームショップの新作の告知">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_Toricolate.jpg" alt="WEBサイト：トリコレート">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Toricolate.jpg" alt="WEBサイト：トリコレート">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_Logo.jpg" alt="ロゴ：ひみつの遊園地">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Logo.jpg" alt="ロゴ：ひみつの遊園地">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="assets/img/photo/Portofolio_photo_icon.jpg" alt="アイコン：ECサイト">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_icon.jpg" alt="アイコン：ECサイト">
                     </a>
                 </li>
 
@@ -136,31 +89,12 @@
 
         </section>
 
+        
         <!-- 上へもどる -->
         <p class="pagetop">
-            <a href="#"><img src="assets/img/to_top2.png" alt="Topへ戻る"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/to_top2.png" alt="Topへ戻る"></a>
         </p>
-
     </main>
 
 
-    <footer>
-        <ul class="gnav-list">
-            <li class="gnav-item"><a href="index.html">Top</a></li>
-            <li class="gnav-item"><a href="#works">Works</a></li>
-            <li class="gnav-item"><a href="about.html">About</a></li>
-        </ul>
-        <small>&copy; 2025 MOE MIYAKE</small>
-    </footer>
-
-</body>
-
-
-<!-- jQuery -->
- <script src="assets/js/jquery-3.7.1.js"></script>
-
-<!-- JS -->
- <script src="assets/js/script.js"></script>
-
-
-</html>
+    <?php get_footer(); ?>
