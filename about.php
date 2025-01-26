@@ -1,6 +1,6 @@
-<!-- /*
+/*
 Template name: ABOUTページ
-*/ -->
+*/
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -16,8 +16,8 @@ Template name: ABOUTページ
         rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
 </head>
 
@@ -56,8 +56,8 @@ Template name: ABOUTページ
     <section class="about" id="about">
         <div class="moe-img">
             <picture>
-                <source srcset="img/about/pc_moePenguin.png" media="(min-width: 768px)">
-                <img src="img/about/sp_moePenguin.png" alt="三宅萌の代わりのペンギン">
+                <source srcset="assets/img/about/pc_moePenguin.png" media="(min-width: 768px)">
+                <img src="assets/img/about/sp_moePenguin.png" alt="三宅萌の代わりのペンギン">
             </picture>
         </div>
         <div class="moe-introduction">
@@ -94,7 +94,7 @@ Template name: ABOUTページ
 
     <!-- 上へもどる -->
     <p class="pagetop">
-        <a href="#"><img src="img/to_top2.png" alt="Topへ戻る"></a>
+        <a href="#"><img src="assets/img/to_top2.png" alt="Topへ戻る"></a>
     </p>
 
     <footer>
@@ -110,10 +110,10 @@ Template name: ABOUTページ
 
 
 <!-- jQuery -->
-<script src="js/jquery-3.7.1.js"></script>
+<script src="assets/js/jquery-3.7.1.js"></script>
 
 <!-- JS -->
-<script src="js/script.js"></script>
+<script src="assets/js/script.js"></script>
 
 
 </html>

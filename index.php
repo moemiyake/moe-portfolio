@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
 </head>
 
@@ -56,18 +56,18 @@
             <div class="mv-img">
                 <div class="mv-img_bg">
                     <picture class="mv-img_bg_acacia">
-                        <source srcset="img/pc_bg.jpg" media="(min-width: 768px)">
-                        <img src="img/sp_bg.jpg" alt="Vessiのロゴ">
+                        <source srcset="assets/img/pc_bg.jpg" media="(min-width: 768px)">
+                        <img src="assets/img/sp_bg.jpg" alt="Vessiのロゴ">
                     </picture>
                 </div>
                 <div class="mv-img_fg">
                     <picture class="mv-img_fg_opening">
-                        <source srcset="img/pc_opening.png" media="(min-width: 768px)">
-                        <img src="img/sp_opening.png" alt="冒頭挨拶：ものを作ることで、人の役に立ち、人の笑顔につながっていく。そんなお手伝いが出来ればと考えています。">
+                        <source srcset="assets/img/pc_opening.png" media="(min-width: 768px)">
+                        <img src="assets/img/sp_opening.png" alt="冒頭挨拶：ものを作ることで、人の役に立ち、人の笑顔につながっていく。そんなお手伝いが出来ればと考えています。">
                     </picture>
                     <picture class="mv-img_fg_roof">
-                        <source srcset="img/pc_roof.png" media="(min-width: 768px)">
-                        <img src="img/sp_roof.png" alt="家の屋根の背景画像">
+                        <source srcset="assets/img/pc_roof.png" media="(min-width: 768px)">
+                        <img src="assets/img/sp_roof.png" alt="家の屋根の背景画像">
                     </picture>
                 </div>
             </div>
@@ -80,55 +80,55 @@
             <ul class="works_container">
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_Vessi.jpg" alt="WEBサイト：Vessi">
+                        <img src="assets/img/photo/Portofolio_photo_Vessi.jpg" alt="WEBサイト：Vessi">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_ひみつの遊園地.jpg" alt="WEBサイト：ひみつの遊園地">
+                        <img src="assets/img/photo/Portofolio_photo_ひみつの遊園地.jpg" alt="WEBサイト：ひみつの遊園地">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_Portoforio.jpg" alt="WEBサイト：ポートフォリオ">
+                        <img src="assets/img/photo/Portofolio_photo_Portoforio.jpg" alt="WEBサイト：ポートフォリオ">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_banner_park.jpg" alt="バナー：四季の森公園の秋">
+                        <img src="assets/img/photo/Portofolio_photo_banner_park.jpg" alt="バナー：四季の森公園の秋">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_banner_autumn leaves festival.jpg" alt="バナー：四季の森公園の秋祭り">
+                        <img src="assets/img/photo/Portofolio_photo_banner_autumn leaves festival.jpg" alt="バナー：四季の森公園の秋祭り">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_banner_icecream.jpg" alt="バナー：アイスクリームショップの新作の告知">
+                        <img src="assets/img/photo/Portofolio_photo_banner_icecream.jpg" alt="バナー：アイスクリームショップの新作の告知">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_Toricolate.jpg" alt="WEBサイト：トリコレート">
+                        <img src="assets/img/photo/Portofolio_photo_Toricolate.jpg" alt="WEBサイト：トリコレート">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_Logo.jpg" alt="ロゴ：ひみつの遊園地">
+                        <img src="assets/img/photo/Portofolio_photo_Logo.jpg" alt="ロゴ：ひみつの遊園地">
                     </a>
                 </li>
 
                 <li class="works_item">
                     <a href="#">
-                        <img src="img/photo/Portofolio_photo_icon.jpg" alt="アイコン：ECサイト">
+                        <img src="assets/img/photo/Portofolio_photo_icon.jpg" alt="アイコン：ECサイト">
                     </a>
                 </li>
 
@@ -138,7 +138,7 @@
 
         <!-- 上へもどる -->
         <p class="pagetop">
-            <a href="#"><img src="img/to_top2.png" alt="Topへ戻る"></a>
+            <a href="#"><img src="assets/img/to_top2.png" alt="Topへ戻る"></a>
         </p>
 
     </main>
@@ -157,10 +157,10 @@
 
 
 <!-- jQuery -->
- <script src="js/jquery-3.7.1.js"></script>
+ <script src="assets/js/jquery-3.7.1.js"></script>
 
 <!-- JS -->
- <script src="js/script.js"></script>
+ <script src="assets/js/script.js"></script>
 
 
 </html>
