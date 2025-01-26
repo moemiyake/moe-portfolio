@@ -1,0 +1,119 @@
+<!-- /*
+Template name: ABOUTページ
+*/ -->
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三宅萌のPortfolio</title>
+
+    <!-- FONT -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ヘッダー -->
+    <header>
+
+        <!-- モバイル -->
+        <button class="sp-header-navbtn sp-only" type="btn">
+            <span></span>
+        </button>
+
+        <nav class="sp-header-nav sp-only">
+            <ul class="gnav-list">
+                <li class="gnav-item"><a href="index.html">Top</a></li>
+                <li class="gnav-item"><a href="#works">Works</a></li>
+                <li class="gnav-item"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- PC -->
+        <nav class="pc-header-nav pc-only">
+            <ul class="gnav-list">
+                <li class="gnav-item"><a href="index.html">Top</a></li>
+                <li class="gnav-item"><a href="#works">Works</a></li>
+                <li class="gnav-item"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <section class="about" id="about">
+        <div class="moe-img">
+            <picture>
+                <source srcset="img/about/pc_moePenguin.png" media="(min-width: 768px)">
+                <img src="img/about/sp_moePenguin.png" alt="三宅萌の代わりのペンギン">
+            </picture>
+        </div>
+        <div class="moe-introduction">
+            <h5>
+                <span>Moe Miyake</span>
+                <br>三宅 萌
+            </h5>
+            <p>
+                1994年生まれ。幼少期からものづくりが好きで、事務員として働きながら、曲を作ったり、建築模型を作ったり、ハンドメイドのあみぐるみなどを作る活動をしていました。<br>
+                <br>
+                以前からデザインを本格的に勉強したかったこと、Webサイトのデザイン設計の面白さ、タップすると画面上のものが動く仕組みに惹かれ、Webデザイナーを目指すことを決意。職業訓練校で6ヶ月間Webデザインについて学んできました。<br>
+                「コツコツやれば大丈夫」という言葉をモットーに、コツコツと丁寧に制作し、ユーザー様に満足していただけるWebデザイナーを目指しています。<br>
+                <br>
+                特技は料理と、すぐに小さな子供と仲良くなること。
+            </p>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <h3>できること</h3>
+        <div class="skill-cotainer">
+            <div class="skill_design">
+                <h4>WEBデザイン</h4>
+                <p>Webサイト、バナーの制作をすることができます。ユーザーにとって使いやすいシンプルなデザインを心がけながら、少し特別な空気を感じて心地よくサイトを閲覧していただけるデザインになるように作り込むようにしています。
+                </p>
+            </div>
+            <div class="skill_development">
+                <h4>WEB開発</h4>
+                <p>デザインカンプを忠実に再現することが出来ます。レスポンシブ対応も可能です。規則性のある命名を行い、誰が見ても分かりやすいコードを書くことを心がけています。JavaScript や jQuery
+                    を利用して、ユーザーアクションによって動くしかけも、日々勉強しています。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 上へもどる -->
+    <p class="pagetop">
+        <a href="#"><img src="img/to_top2.png" alt="Topへ戻る"></a>
+    </p>
+
+    <footer>
+        <ul class="gnav-list">
+            <li class="gnav-item"><a href="index.html">Top</a></li>
+            <li class="gnav-item"><a href="#works">Works</a></li>
+            <li class="gnav-item"><a href="about.html">About</a></li>
+        </ul>
+        <small>&copy; 2025 MOE MIYAKE</small>
+    </footer>
+
+</body>
+
+
+<!-- jQuery -->
+<script src="js/jquery-3.7.1.js"></script>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+
+</html>
