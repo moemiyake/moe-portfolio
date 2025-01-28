@@ -43,6 +43,14 @@
                 <li class="gnav-item"><a href="<?php echo home_url(); ?>">Top</a></li>
                 <li class="gnav-item"><a href="#works">Works</a></li>
                 <li class="gnav-item"><a href="about.html">About</a></li>
+                <?php 
+            $args = [
+                'menu' => 'global-navigation',
+                'menu_class' => '',
+                'container' => false,
+            ];
+            wp_nav_menu($args);
+            ?>
             </ul>
         </nav>
 

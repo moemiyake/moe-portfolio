@@ -9,3 +9,13 @@ add_action('wp_body_open', function(){
 // <titleタグを出力する>
 add_theme_support('title-tag');
 ?>
+
+<?php 
+// カスタムメニューを使えるようにする
+ add_theme_support('menus');
+ ?>
+
+<?php 
+// アイキャッチ画像を使えるようにする
+ add_theme_support('post-thumbnails');
+?>
