@@ -39,23 +39,21 @@
 
         <!-- PC -->
         <nav class="pc-header-nav pc-only">
-            <ul class="gnav-list">
+            <!-- <ul class="gnav-list">
                 <li class="gnav-item"><a href="<?php echo home_url(); ?>">Top</a></li>
                 <li class="gnav-item"><a href="#works">Works</a></li>
                 <li class="gnav-item"><a href="about.html">About</a></li>
-
-                <?php 
+            </ul> -->
+             <!-- 横並びにならない / 解決策　一回検証でどんなコードが表示されているか見るulの中にulが入っている可能性大 -->
+              <!-- 解決！ -->
+            <?php 
             $args = [
                 'menu' => 'global-navigation',
-                'menu_class' => '',
+                'menu_class' => 'gnav-list',
                 'container' => false,
             ];
             wp_nav_menu($args);
             ?>
-            <!-- ★ 横並びにならない -->
-             <!-- 解決策　一回検証でどんなコードが表示されているか見る。 -->
-              <!-- ulの中にulが入っている可能性大 -->
-            </ul>
         </nav>
 
 

@@ -19,3 +19,14 @@ add_theme_support('title-tag');
 // アイキャッチ画像を使えるようにする
  add_theme_support('post-thumbnails');
 ?>
+
+<?php 
+// 不要なliクラスを消す
+add_filter('nav_menu_css_class', 'my_css_attributes_filter', 100, 1);
+add_filter('nav_menu_item_id', 'my_css_attributes_filter', 100, 1);
+add_filter('page_css_class', 'my_css_attributes_filter', 100, 1);
+ 
+function my_css_attributes_filter($var) {
+    return is_array($var) ? array_intersect($var,  array( 'current-menu-item' , 'gnav-item') ) : '';
+}
+?>
