@@ -1,9 +1,17 @@
     <footer>
-        <ul class="gnav-list">
+        <!-- <ul class="gnav-list">
             <li class="gnav-item"><a href="<?php echo home_url(); ?>">Top</a></li>
             <li class="gnav-item"><a href="#works">Works</a></li>
             <li class="gnav-item"><a href="about.html">About</a></li>
-        </ul>
+        </ul> -->
+        <?php 
+            $args = [
+                'menu' => 'global-navigation',
+                'menu_class' => 'gnav-list',
+                'container' => false,
+            ];
+            wp_nav_menu($args);
+            ?>
         <small>&copy; 2025 MOE MIYAKE</small>
     </footer>
 
