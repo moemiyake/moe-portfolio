@@ -43,6 +43,7 @@
                 <li class="gnav-item"><a href="<?php echo home_url(); ?>">Top</a></li>
                 <li class="gnav-item"><a href="#works">Works</a></li>
                 <li class="gnav-item"><a href="about.html">About</a></li>
+
                 <?php 
             $args = [
                 'menu' => 'global-navigation',
@@ -51,6 +52,9 @@
             ];
             wp_nav_menu($args);
             ?>
+            <!-- ★ 横並びにならない -->
+             <!-- 解決策　一回検証でどんなコードが表示されているか見る。 -->
+              <!-- ulの中にulが入っている可能性大 -->
             </ul>
         </nav>
 
