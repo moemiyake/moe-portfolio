@@ -29,11 +29,19 @@
         </button>
         
         <nav class="sp-header-nav sp-only">
-            <ul class="gnav-list">
+        <?php 
+            $args = [
+                'menu' => 'global-navigation',
+                'menu_class' => 'gnav-list',
+                'container' => false,
+            ];
+            wp_nav_menu($args);
+            ?>
+            <!-- <ul class="gnav-list">
                 <li class="gnav-item"><a href="<?php echo home_url(); ?>">Top</a></li>
                 <li class="gnav-item"><a href="#works">Works</a></li>
                 <li class="gnav-item"><a href="about.html">About</a></li>
-            </ul>
+            </ul> -->
         </nav>
 
 

@@ -32,55 +32,55 @@
             <h2 class="works-title">Works</h2>
             <ul class="works_container">
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-web-vessi/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Vessi.jpg" alt="WEBサイト：Vessi">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-web-secret_amusement_park/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_ひみつの遊園地.jpg" alt="WEBサイト：ひみつの遊園地">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-web-portfolio/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Portoforio.jpg" alt="WEBサイト：ポートフォリオ">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-banner-park/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_banner_park.jpg" alt="バナー：四季の森公園の秋">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-banner-park_festival/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_banner_autumn leaves festival.jpg" alt="バナー：四季の森公園の秋祭り">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-banner-snow_cream/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_banner_icecream.jpg" alt="バナー：アイスクリームショップの新作の告知">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-web-toricolate/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Toricolate.jpg" alt="WEBサイト：トリコレート">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-logo-secret_amusement_park/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Logo.jpg" alt="ロゴ：ひみつの遊園地">
                     </a>
                 </li>
 
                 <li class="works_item">
-                    <a href="#">
+                    <a href="<?php echo home_url('/works-icon-simple_icons/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_icon.jpg" alt="アイコン：ECサイト">
                     </a>
                 </li>
