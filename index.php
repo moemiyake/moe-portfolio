@@ -4,7 +4,7 @@
 
         <!-- TOP MV -->
         <section class="mv" id="mv">
-            <h1 class="mv-title">MOE MIYAKE</h1>
+            <h1 class="mv-title fadein">MOE MIYAKE</h1>
 
             <div class="mv-img">
                 <div class="mv-img_bg">
@@ -14,7 +14,7 @@
                     </picture>
                 </div>
                 <div class="mv-img_fg">
-                    <picture class="mv-img_fg_opening">
+                    <picture class="mv-img_fg_opening fadein_2">
                         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/pc_opening.png" media="(min-width: 768px)">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sp_opening.png" alt="冒頭挨拶：ものを作ることで、人の役に立ち、人の笑顔につながっていく。そんなお手伝いが出来ればと考えています。">
                     </picture>
@@ -29,7 +29,7 @@
 
         <!-- WORKS -->
         <section class="works" id="works">
-            <h2 class="works-title">Works</h2>
+            <h2 class="works-title fadein">Works</h2>
             <ul class="works_container">
                 <li class="works_item">
                     <a href="<?php echo home_url('/works-web-vessi/'); ?>">
