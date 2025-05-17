@@ -33,14 +33,15 @@
             $args = [
                 'menu' => 'global-navigation',
                 'menu_class' => 'gnav-list sp-humburger',
+                'add_li_class' => 'hamburger',
                 'container' => false,
             ];
             wp_nav_menu($args);
             ?>
             <!-- <ul class="gnav-list sp-humburger">
-                <li class="gnav-item"><a href="<?php echo home_url(); ?>">Top</a></li>
-                <li class="gnav-item"><a href="#works">Works</a></li>
-                <li class="gnav-item"><a href="about.html">About</a></li>
+                <li class="gnav-item hamburger"><a href="<?php echo home_url(); ?>">Top</a></li>
+                <li class="gnav-item hamburger"><a href="#works">Works</a></li>
+                <li class="gnav-item hamburger"><a href="about.html">About</a></li>
             </ul> -->
         </nav>
 

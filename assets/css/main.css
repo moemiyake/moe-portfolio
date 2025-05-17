@@ -716,7 +716,7 @@ h4 {
     overflow: hidden;
  }
 
- .sp-humburger li {
+ .hamburger {
     opacity: 0;
     translate: 0 -3rem;
  }

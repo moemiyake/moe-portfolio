@@ -117,7 +117,7 @@ const showHamburger = (entries3, obs3) => {
 
 
             // ハンバーガーメニューを順番に表示
-            const hamburger = document.querySelectorAll('.gnav-item');
+            const hamburger = document.querySelectorAll('.hamburger');
             // console.log(hamburger);
 
             for (let i = 0; i < hamburger.length; i++) {
