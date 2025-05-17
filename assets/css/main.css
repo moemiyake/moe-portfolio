@@ -373,7 +373,7 @@ ul {
 
 .works_container {
     width: min(65vw, 300px);
-    height: auto;
+    /* height: auto; */
     margin: max(12vw, 60px) auto 200px auto;
 }
 
@@ -381,12 +381,13 @@ ul {
 .works_container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 9, 1fr;
+    grid-template-rows: 9 1fr;
     gap: 14vw;
 }
 
 .works_item {
     width: 100%;
+    line-height: 0;
 }
 
 /* ホバー時の設定 */
@@ -397,8 +398,11 @@ ul {
 }
 
 .works_item img {
+    display: block;
     transition: all 0.5s ease-out;
-    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .works_item img:hover {
