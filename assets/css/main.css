@@ -373,6 +373,7 @@ ul {
 
 .works_container {
     width: min(65vw, 300px);
+    height: auto;
     margin: max(12vw, 60px) auto 200px auto;
 }
 
@@ -382,6 +383,10 @@ ul {
     grid-template-columns: 1fr;
     grid-template-rows: 9, 1fr;
     gap: 14vw;
+}
+
+.works_item {
+    width: 100%;
 }
 
 /* ホバー時の設定 */
@@ -399,6 +404,10 @@ ul {
 .works_item img:hover {
     transform: scale(1.02);
     opacity: 0.9;
+}
+
+.works_item div {
+    height: 100%;
 }
 
 
