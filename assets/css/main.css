@@ -384,6 +384,23 @@ ul {
     gap: 14vw;
 }
 
+/* ホバー時の設定 */
+.works_item {
+    overflow: hidden;
+    cursor: pointer;
+    border: #a7a7a7 0.5px solid;
+}
+
+.works_item img {
+    transition: all 0.5s ease-out;
+    height: 100%;
+}
+
+.works_item img:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
 
     @media screen and (min-width: 768px){
         h2.works-title {
@@ -506,7 +523,8 @@ small {
 
 .moe-img source,
 .moe-img img {
-    width: 40%;
+    /* width: 40%; */
+    width: 60%;
     margin: 60px auto;
 }
 
@@ -564,7 +582,8 @@ h5 span {
 
     .moe-img source,
     .moe-img img {
-        width: 60%;
+        /* width: 60%; */
+        width: 90%;
         margin: auto;
         margin-top: 90px;
     }

@@ -39,7 +39,7 @@
 
                 <li class="works_item">
                     <a href="<?php echo home_url('/works-web-secret_amusement_park/'); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_ひみつの遊園地.jpg" alt="WEBサイト：ひみつの遊園地">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_himitunoyuuenti.jpg" alt="WEBサイト：ひみつの遊園地">
                     </a>
                 </li>
 
@@ -68,6 +68,12 @@
                 </li>
 
                 <li class="works_item">
+                    <a href="<?php echo home_url('/works-banner-umino_kissa/'); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_banner_uminoKissa.jpg" alt="バナー：ウミノ喫茶">
+                    </a>
+                </li>
+
+                <li class="works_item">
                     <a href="<?php echo home_url('/works-web-toricolate/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_Toricolate.jpg" alt="WEBサイト：トリコレート">
                     </a>
@@ -82,6 +88,19 @@
                 <li class="works_item">
                     <a href="<?php echo home_url('/works-icon-simple_icons/'); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_icon.jpg" alt="アイコン：ECサイト">
+                    </a>
+                </li>
+
+                <li class="works_item">
+                    <a href="<?php echo home_url('/works-others-usapopo_cooking/'); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_others_cooking.jpg" alt="その他：うさぽぽクッキング">
+                    </a>
+                </li>
+
+
+                <li class="works_item">
+                    <a href="<?php echo home_url('/works-others-gekiban_girl/'); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photo/Portofolio_photo_others_gekibanGirl!.jpg" alt="その他：ゲキバンガール！">
                     </a>
                 </li>
 
